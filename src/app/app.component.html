@@ -1,3 +1,19 @@
 <h1>
   {{title}}
 </h1>
+
+<div class="my-div" #myDiv>
+  Custom div
+</div>
+
+<hr>
+
+<button type="button" class="btn btn-default" (click)="focus()">
+  Focus on text input
+</button>
+<input type="text" name="" value="" #myInput>
+<button type="button" class="btn btn-default" (click)="height()">
+  Click to focus (alternative)
+</button>
+
+<hr>
